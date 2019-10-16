@@ -16,10 +16,7 @@ public class PrimeOrKruskalGenerator extends AMazeGenerator {
     @Override
     public Maze generate(int r, int c) {
         EdgeSet = new LinkedList<>();
-        //Buckets = new Vector<>(10,1);
         Buckets = new LinkedList<Set<Edge>>();
-        //for (Set<Edge> s : Buckets)
-        //    s = new HashSet<>();
         iMaze = new Maze(r, c);
         iMaze.Put1();
         CreateEdges();
