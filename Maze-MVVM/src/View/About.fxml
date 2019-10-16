@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+        <rowConstraints>
+            <RowConstraints minHeight="120.0" prefHeight="30.0" />
+         <RowConstraints minHeight="30.0" prefHeight="30.0" />
+         <RowConstraints minHeight="30.0" prefHeight="30.0" />
+         <RowConstraints minHeight="30.0" prefHeight="30.0" />
+            <RowConstraints maxHeight="121.0" minHeight="112.0" prefHeight="121.0" />
+         <RowConstraints maxHeight="38.0" minHeight="29.0" prefHeight="29.0" />
+         <RowConstraints minHeight="30.0" prefHeight="30.0" />
+         <RowConstraints minHeight="30.0" prefHeight="30.0" />
+        </rowConstraints>
+      <columnConstraints>
+         <ColumnConstraints minWidth="830.0" prefWidth="400.0" />
+      </columnConstraints>
+      <children>
+         <Label prefHeight="120.0" prefWidth="671.0" text=" Daniel Ben Simon">
+            <font>
+               <Font name="Freestyle Script" size="78.0" />
+            </font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop color="BLACK" />
+                     <Stop color="#f80000" offset="1.0" />
+                  </stops>
+               </LinearGradient>
+            </textFill>
+         </Label>
+         <Label prefHeight="134.0" prefWidth="600.0" text=" Eran Toutian" GridPane.rowIndex="4">
+            <font>
+               <Font name="Freestyle Script" size="76.0" />
+            </font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop color="BLACK" />
+                     <Stop color="#f80000" offset="1.0" />
+                  </stops>
+               </LinearGradient>
+            </textFill>
+         </Label>
+         <Label prefHeight="21.0" prefWidth="612.0" text=" Second year student - Engineering for software and information systems" GridPane.rowIndex="1">
+            <font>
+               <Font name="System Bold Italic" size="15.0" />
+            </font>
+         </Label>
+         <Label prefHeight="21.0" prefWidth="642.0" text=" I love programming and i wish some day I will have my own startup which I believe in it." GridPane.rowIndex="2">
+          <font>
+              <Font name="System Bold Italic" size="15.0" />
+          </font>
+         </Label>
+         <Label prefHeight="21.0" prefWidth="731.0" text=" I like to spent my time in the gym and with my friends whenever it is possible :)" GridPane.rowIndex="3">
+          <font>
+              <Font name="System Bold Italic" size="15.0" />
+          </font>
+         </Label>
+         <Label prefHeight="21.0" prefWidth="676.0" text=" Second year student - Engineering for software and information systems" GridPane.rowIndex="5">
+          <font>
+              <Font name="System Bold Italic" size="15.0" />
+          </font>
+         </Label>
+          <Label prefHeight="21.0" prefWidth="730.0" text=" I wish some day I will have my own startup which I believe in it and Daniel will work for me." GridPane.rowIndex="6">
+              <font>
+                  <Font name="System Bold Italic" size="15.0" />
+              </font>
+          </Label>
+          <Label prefHeight="21.0" prefWidth="732.0" text=" I love sport and specially soccer, spent my time in learning new things and hangout with friends" GridPane.rowIndex="7">
+              <font>
+                  <Font name="System Bold Italic" size="15.0" />
+              </font>
+          </Label>
+      </children>
+    </GridPane>
+</AnchorPane>
